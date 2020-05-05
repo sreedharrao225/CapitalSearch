@@ -49,7 +49,8 @@ public class CapitalService {
 			}
 
 			System.out.println("Enter CODE or NAME to get capital .Enter EXIT/exit to terimmate this program.....");
-			input = myObj.nextLine();  
+			input = myObj.nextLine();
+			capital=null;
 
 		}
 		

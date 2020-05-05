@@ -20,7 +20,7 @@ public class CapitalService {
 		Scanner myObj = new Scanner(System.in); 
 		System.out.println("Enter CODE or NAME to get capital .Enter EXIT/exit to terimmate this program.....");
 		String input = myObj.nextLine();  
-		String capital="";
+		String capital=null;
 		CapitalService service=new CapitalService();
 		while (!input.equalsIgnoreCase("exit") ){
 			try {
